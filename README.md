@@ -6,6 +6,9 @@ logging. The file format is specified by the
 [Canadian Well Logging Society](http://cwls.org/las_info.php). It works fine for 1.2 and
 2.0 files, but not for 3.0 yet.
 
+Old API usage (see ``old_api`` branch)
+--------------------------------------
+
 The object for a LAS file is surprisingly named ``LASFile``. It gives you access to the
 raw data and metadata, and also some useful shortcut methods. A slightly contrived 
 example is:
